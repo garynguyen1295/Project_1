@@ -6,9 +6,9 @@ First level contains 2 folders (paper/ and images/) and 3 files (README.md, .git
 
 Second level consists of 2 branches
 
-* **In paper folder: folder sections/, 2 files (paper.md and paper.html)
+* **In paper folder**: folder sections/, 2 files (paper.md and paper.html)
 
-* **In images folder: 5 image files ( 5 logos for git,github,markdown,pandoc, stat159)
+* **In images folder**: 5 image files ( 5 logos for git,github,markdown,pandoc, stat159)
 
 
 ## Author: Gary Thuc Nguyen

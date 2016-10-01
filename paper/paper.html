@@ -4,18 +4,47 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta name="generator" content="pandoc" />
-  <title></title>
+  <meta name="author" content="Gary Thuc Nguyen" />
+  <meta name="date" content="2016-09-30" />
+  <title>STAT_159_Project_1</title>
   <style type="text/css">code{white-space: pre;}</style>
 </head>
 <body>
-<p>This paper will address the process of creating a reproproducible research project. In particular, I will talk about five different tools, be they Makefile, Git, Github, pandoc, and Markdown that are used to create the entire project (Workflow and written content). First , I will explain the definition of those five tools and their respective roles in the reproducible workflow and project. Then I will mention the resources I referred to, including class materials and online resources, to complete the project. Challenges encountered during the process will also be addressed. At the end, I will share my overall thoughs on completing this project and how much time I spent on creating it A makefile is used with the UNIX make utility to determine which portions of a program to compile. A makefile is basically a script that guides the make utility to choose the appropriate program files that are to be compiled and linked together.</p>
+<div id="header">
+<h1 class="title">STAT_159_Project_1</h1>
+<h2 class="author">Gary Thuc Nguyen</h2>
+<h3 class="date">September 30, 2016</h3>
+</div>
+<h1 id="abstract">Abstract:</h1>
+<p>This paper will address the process of creating a reproproducible research project. In particular, I will talk about five different tools, be they Makefile, Git, Github, pandoc, and Markdown that are used to create the entire project (Workflow and written content). First , I will explain the definition of those five tools and their respective roles in the reproducible workflow and project. Then I will mention the resources I referred to, including class materials and online resources, to complete the project. Challenges encountered during the process will also be addressed. At the end, I will share my overall thoughs on completing this project and how much time I spent on creating it Use 01-introduction.md to describe the motivation, scope, purpose of the project ### Motivation</p>
+<p>Motivation for this project stems from the desire to implement reproducibility practices into students' working habits. This project is the first attempt to create a reproducible project using bash, markdown, pandoc, Git, Github, Make and Sublime Text. Another motivating factor behind this project is to recap what we have learned about those computational tools mentioned above.</p>
+<h1 id="makefile">Makefile</h1>
+<p>A makefile is used with the UNIX make utility to determine which portions of a program to compile. A makefile is basically a script that guides the make utility to choose the appropriate program files that are to be compiled and linked together.</p>
 <p>A Makefile is a text file in which certain command lines are implemented. Such command lines are in the format</p>
-<p>&quot;target: dependencies command line &quot;</p>
+<p>target: dependencies</p>
+<pre><code>command line       </code></pre>
 <p>Makefile allows compiling programs within the workflow of a project faster and more efficient. Instead of writing multiple commands and running each of them to compile files we want, we can run the Makefile to compile multiple files at once. N</p>
 <p>In this particular project, Makefile allows us to concatinate different segments of our essay into a single .rmd file and from there, outputs an html file so that we can see our essay with images included in there. So when we modify a .md file, we can run the Makefile from our terminal to see the .html file.</p>
+<h1 id="git">Git</h1>
+<h3 id="logo">Logo:</h3>
 <p><img src="../images/git-logo.png"></p>
-<p>Git is a version control system that allows us to make our changes from terminal visible and trackable on our Github repository. Git includes many commands (git init, git add, git commit) that allow us to track, add, and commit changes.</p>
-<p>Github is a repository site where we store and update the content of our working project. Github is typically useful in group projects, especially when we work on the same workflow. Making changes in our project using Github allows us to track those changes and thus communicate with each other more effectively.</p>
-<p>We would work on our project using command lines and built-in software from our computers, and then make chang</p>
+<h3 id="description">Description</h3>
+<p>Git is a version control system that allows us to make our changes from terminal visible and trackable on our Github repository. Git includes many commands (git init, git add, git commit, git push etc. ) that allow us to track, add, and commit changes. These changes will be then reflected in our project workflow.</p>
+<h3 id="role">Role:</h3>
+<p>In this project, Git allows us to commit changes we make from our project directories in our computers and publish those changes on our online Github repository. In a way, Git is a tool that connects us to our Github repository</p>
+<h1 id="github">Github</h1>
+<h3 id="logo-1">Logo</h3>
+<p><img src="../images/github-logo.png"></p>
+<h3 id="description-1">Description</h3>
+<p>Github is a repository site where we store and update the content of our working project. Github is typically useful in group projects, especially when we work on the same workflow. While Git allows us to add , commit and track changes and thus communicate with each other more effectively. Github is like the interface where we can see the end-results of those changes.</p>
+<h3 id="role-1">Role</h3>
+<p>We would work on our project using command lines and built-in software from our computers, and then commit those changes using Git tool. Then we'll be able to see changes we made on our Github repository. Our collaborators can also see these changes as well.</p>
+<h1 id="pandoc">Pandoc</h1>
+<h3 id="logo-2">Logo</h3>
+<p><img src="../images/pandoc-logo.png"></p>
+<h3 id="description-2">Description</h3>
+<p>Pandoc is a document converter that allows us to convert a document from one type to the other (from md file to html file, from md file to pdf file, etc.).</p>
+<h3 id="usefulness-in-project-1">Usefulness in Project 1</h3>
+<p>Pandoc is used to convert our concatinated 'paper.md' file into 'paper.html' file. Since we incorporated images into our md files, html file format is needed for showing the graphical effects we used in our paper. And so as we write up our paper in our md. files using markdown format, pandoc in our</p>
 </body>
 </html>

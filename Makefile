@@ -1,5 +1,6 @@
 .PHONY: all clean
 
+all: paper.html paper.md 
 
 paper.html: paper.md
 	cd paper; pandoc -f markdown -t html -s paper.md -o paper.html

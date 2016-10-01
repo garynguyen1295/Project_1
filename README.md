@@ -10,6 +10,9 @@ Second level consists of 2 branches
 
 * **In images folder**: 5 image files ( 5 logos for git,github,markdown,pandoc, stat159)
 
+Third level consists of files in paper/sections
+* all md files
+
 
 ## Author: Gary Thuc Nguyen
 

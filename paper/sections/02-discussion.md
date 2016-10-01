@@ -1,7 +1,4 @@
-
-Use 02-discussion.md to write about all the computational tools, the role they play, and include images
- 
-
+#II. Discussion
 
 #Makefile
 

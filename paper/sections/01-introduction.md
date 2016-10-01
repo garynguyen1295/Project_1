@@ -1,5 +1,9 @@
 # I. Introduction
 
+### Class logo: 
+
+<img src="../images/stat159-logo.png">
+
 ### Motivation 
 
 Motivation for this project stems from the desire to implement reproducibility practices into students' working habits. This project is the first attempt to create a reproducible project using bash, markdown, pandoc, Git, Github, Make and Sublime Text.

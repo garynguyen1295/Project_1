@@ -11,6 +11,10 @@ This paper will address the process of creating a reproproducible research proje
 
 # I. Introduction
 
+### Class logo: 
+
+<img src="../images/stat159-logo.png">
+
 ### Motivation 
 
 Motivation for this project stems from the desire to implement reproducibility practices into students' working habits. This project is the first attempt to create a reproducible project using bash, markdown, pandoc, Git, Github, Make and Sublime Text.
@@ -24,10 +28,7 @@ The project will discuss general definitions and roles of each computational too
  The purpose behind this project is to recap on what we have learned about those computational tools mentioned above. With hands-on practice and reflections on what we have learned so far, this project can be used as a tutorial for future references.  
 
 
-
-Use 02-discussion.md to write about all the computational tools, the role they play, and include images
- 
-
+#II. Discussion
 
 #Makefile
 
@@ -115,4 +116,20 @@ Markdown is a markup language that can be converted into other file formats, suc
 
 Use 03-conclusion.md to summarize the main points, and what would be the take-home message
 
-Throughout this project, I mostly refered to the tutorial on "Git- Version Control" that we did during lab. Different Git commands contained in the tutorial became very useful in this project. As for creating my Makefile, Sinhudja's help was crucial. But time didn't allow me to ask for more help on the Makefile, I did I also compared mine with some of my friends' Makefiles, and thanks to that, I was able to fix  
+#Conclusion 
+
+List of resources used:
+
+* Git tutorial from lab 02
+* Command lines from Homework 1
+  
+
+Throughout this project, I mostly refered to the tutorial on **"Git- Version Control"** that we did during lab. Different Git commands contained in the tutorial became very useful in this project. 
+
+In order to see understand the big picture of the project, professor Sanchez's instructions were crucial to my undertanding. He broke down different parts of the project and talked about the overall file structure I needed to create for this project.
+
+As for creating my Makefile, Sinhudja's help was crucial. But time didn't allow me to ask for more help on the Makefile, and as a result my Makefile was not completed. I decided to compared mine with some of my friends' Makefiles, and thanks to that, I was able to finalize my Makefile. That was the most challenging part of the project. 
+
+Creating the file structure in local directories is the easier part in this project. I was able to create it from Professor Sanchez's instructions and sometimes refered to **Homework 1** for usage of command lines used in this project.   
+
+The most time consuming part was writing out the report. Without considering the amount of time it took to type, I experienced some difficulties with inserting images into the report. With a little google search, a website (url needed) helped me figure this out. And demonstration during lecture provided me with the conceptual understanding of relative paths.

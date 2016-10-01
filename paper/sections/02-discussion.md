@@ -1,12 +1,16 @@
+
+Use 02-discussion.md to write about all the computational tools, the role they play, and include images
+ 
+
+
 #Makefile
 
 A makefile is used with the UNIX make utility to determine which portions of a program to compile. A makefile is basically a script that guides the make utility to choose the appropriate program files that are to be compiled and linked together.
 
 A Makefile is a text file in which certain command lines are implemented. Such command lines are in the format 
 
-target: dependencies 
-	
-	command line       
+	target: dependencies 
+		command line       
 
 Makefile allows compiling programs within the workflow of a project faster and more efficient. Instead of writing multiple commands and running each of them to compile files we want, we can run the Makefile to compile multiple files at once. N
 
@@ -53,7 +57,19 @@ Pandoc is a document converter that allows us to convert a document from one typ
 
 ### Usefulness in Project 1 
 Pandoc is used to convert our concatinated 'paper.md' file into 'paper.html' file. Since we incorporated images into our md files, html file format is needed for showing the graphical effects we used in our paper.
-And so as we write up our paper in our md. files using markdown format, pandoc in our
+And so as we write up our paper in our .md files using markdown format, pandoc allows us to generate an html file that showcases all the characteristics we intended in our markdown file. 
+
+#Markdown
+
+###Logo
+
+<img src="../images/markdown-logo.png">
+
+###Description
+
+Markdown is a markup language that can be converted into other file formats, such HTML and PDF. Markdown provides a user-friendly interface for users since its syntax is not so complicated. Using Markdown, we will be able to create Written Documents that can include Mathematical formulas, code chunks and pictures. 
+
+
 
 
 

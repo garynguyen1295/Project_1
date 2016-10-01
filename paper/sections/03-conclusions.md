@@ -1,6 +1,5 @@
-Use 03-conclusion.md to summarize the main points, and what would be the take-home message
 
-#Conclusion 
+#III. Conclusion 
 
 List of resources used:
 

@@ -1,6 +1,6 @@
 #II. Discussion
 
-#Makefile
+##i. Makefile
 
 A makefile is used with the UNIX make utility to determine which portions of a program to compile. A makefile is basically a script that guides the make utility to choose the appropriate program files that are to be compiled and linked together.
 
@@ -14,7 +14,7 @@ Makefile allows compiling programs within the workflow of a project faster and m
 In this particular project, Makefile allows us to concatinate  different segments of our essay into a single .rmd file and from there, outputs an html file so that we can see our essay with images included in there. So when we modify a .md file, we can run the Makefile from our terminal to see the .html file.
 
 
-#Git 
+##*ii/ Git* 
 
 ### Logo: 
 <img src="../images/git-logo.png">
@@ -29,7 +29,7 @@ Git is a version control system that allows us to make our changes from terminal
 
 In this project, Git allows us to commit changes we make from our project directories in our computers and publish those changes on our online Github repository. In a way, Git is a tool that connects us to our Github repository
 
-#Github
+##*iii/ Github*
 
 ###Logo
 
@@ -43,7 +43,7 @@ Github is a repository site where we store and update the content of our working
 ### Role
 We would work on our project using command lines and built-in software from our computers, and then commit those changes using Git tool. Then we'll be able to see changes we made on our Github repository. Our collaborators can also see these changes as well. 
 
-#Pandoc
+##*iv/ Pandoc*
 
 ###Logo
 
@@ -56,7 +56,7 @@ Pandoc is a document converter that allows us to convert a document from one typ
 Pandoc is used to convert our concatinated 'paper.md' file into 'paper.html' file. Since we incorporated images into our md files, html file format is needed for showing the graphical effects we used in our paper.
 And so as we write up our paper in our .md files using markdown format, pandoc allows us to generate an html file that showcases all the characteristics we intended in our markdown file. 
 
-#Markdown
+##*v/ Markdown*
 
 ###Logo
 
